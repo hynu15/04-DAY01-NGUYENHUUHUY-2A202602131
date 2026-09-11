@@ -99,8 +99,8 @@ Nguồn evidence: segmentation_predictions.json và visuals/segmentation_predict
 | Tác vụ | Đơn vị/định dạng ground truth | Lỗi hoặc điểm mơ hồ quan sát được | Annotator làm gì? | Reviewer xem gì? |
 | --- | --- | --- | --- | --- |
 | Phân loại ảnh | Định danh class_id cấp độ toàn bộ ảnh | Ảnh chứa nhiều chủ thể cùng lúc, gây khó khăn khi chọn một nhãn duy nhất | Lựa chọn một nhãn đại diện chính xác nhất tuân theo quy tắc ưu tiên của guideline | Kiểm tra xem nhãn được chọn có phản ánh đúng đối tượng quan trọng nhất trong ảnh theo chuẩn quy định chưa |
-| Phát hiện vật thể | Tọa độ giới hạn hộp (bounding box) và định danh class_id | Hộp dự đoán quá rộng, quá hẹp hoặc bao quanh gộp nhiều chủ thể cùng lúc | Điều chỉnh hoặc vẽ lại hộp sao cho ôm sát nhất vào các cạnh ngoài cùng của vật thể | Kiểm tra độ khít của hộp và tính chính xác của nhãn phân loại đi kèm |
-| Instance segmentation | Tập hợp tọa độ điểm (polygon) kèm định danh class_id và instance_id | Đường viền lẹm vào nền hoặc dính liền hai cá thể khác nhau thành một vùng | Đánh dấu chi tiết đường biên để bóc tách chính xác từng cá thể vật thể khỏi nền | Kiểm tra độ sắc nét, chính xác của đường ranh giới và đảm bảo các cá thể tách biệt không bị gộp chung |
+| Phát hiện vật thể | Tọa độ giới hạn hộp bounding box và định danh class_id | Hộp dự đoán quá rộng, quá hẹp hoặc bao quanh gộp nhiều chủ thể cùng lúc | Điều chỉnh hoặc vẽ lại hộp sao cho ôm sát nhất vào các cạnh ngoài cùng của vật thể | Kiểm tra độ khít của hộp và tính chính xác của nhãn phân loại đi kèm |
+| Instance segmentation | Tập hợp tọa độ điểm kèm định danh class_id và instance_id | Đường viền lẹm vào nền hoặc dính liền hai cá thể khác nhau thành một vùng | Đánh dấu chi tiết đường biên để bóc tách chính xác từng cá thể vật thể khỏi nền | Kiểm tra độ sắc nét, chính xác của đường ranh giới và đảm bảo các cá thể tách biệt không bị gộp chung |
 
 ## An toàn dữ liệu
 
