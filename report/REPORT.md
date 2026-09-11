@@ -1,10 +1,10 @@
 # Báo cáo bài thực hành Ngày 1 – Đọc nhãn từ đầu ra YOLO11
 
-Ngày chạy: [...]
+Ngày chạy:
 
-Runtime Colab: [...]
+Runtime Colab: CPU/GPU
 
-Python / PyTorch / Ultralytics: [...]
+Python / PyTorch / Ultralytics:
 
 Checkpoint: yolo11n-cls.pt, yolo11n.pt, yolo11n-seg.pt
 
